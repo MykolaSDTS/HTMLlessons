@@ -54,7 +54,6 @@
 //     alert(a12);
 //     alert(a13);
 
-
 // - Створити об'єкт book з наступними полями  :
 // назва, (тип string)
 // кількість сторінок (числовий тип),
@@ -66,7 +65,6 @@
 //     genre: 'future',
 // };
 // console.log(book);
-
 
 // - Створити об'єкт book з наступними полями :
 // назва, (тип string)
@@ -87,15 +85,42 @@
 
 // - Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person (Не об'єкт, просто за допомоги конкатенації)
 //
-
+//
+// let firstName = 'Dudych';
+// let middleName = 'Mykola';
+// let lastName = 'Juriyovych';
+// let person = firstName + ' ' + middleName + ' ' + lastName;
+// console.log(person);
+//
+// let fn = `D`;
+// let mn = `M`;
+// let ln = `J`;
+// let person = `${fn} ${mn} ${ln}`;
+// console.log(person);
 
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками. та вивести в консоль
 //
-
+// let mn = prompt('enter you name');
+// let ln = prompt('enter you last name');
+// let year = prompt('enter you year');
+// let person = `${mn} ${ln} ${year}`;
+// console.log(person);
 
 // - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
 //     let a = 100; let b = '100'; let c = true;
-//
-
+// let a = 100;
+// let b = '100';
+// let c = true;
+// console.log(typeof a);
+// console.log(typeof b);
+// console.log(typeof c);
 
 // - Створити масив об'єктів з назвою books з наступними полями  - назва, кількість сторінок, жанр, автори. Вивести кожну книгу як окремий об'єкт
+// let books = [
+//     {title: 'animals', p: 100, genre: 'future', authors: ['gdgsgggr', 'ffggrggsr']},
+//     {title: 'anime', p: 120, genre: 'hentai', authors: ['gdggr', 'frggsr']}
+// ];
+//
+// console.log(books[0]);
+// console.log(books[1]);
+
